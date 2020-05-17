@@ -10,6 +10,7 @@ import static org.junit.Assert.assertEquals;
 public class PostTests extends HttpTest {
 
     @Test
+    //Проверка API на создание нового животного Test-1 — PET
     public void check_post_pet() {
         //создаем нового питомца
         Pet pet = PetCreator.fillBuilder()
