@@ -16,6 +16,7 @@ public class TestDelete extends HttpTest {
         httpPostPet(pet);
 
         httpDeletePet(petId);
+
     }
 
     @Test
